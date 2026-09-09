@@ -1,0 +1,10 @@
+services:
+
+  node-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node-app:latest
+    ports:
+      - "8081:5000"
+    restart: unless-stopped
