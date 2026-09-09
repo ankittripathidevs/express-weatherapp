@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
 
           script: |
-            cd /home/ubuntu/DevOps_FullCourse/05_CICD/01_GitHub-Actions/express-weatherapp
+            cd /home/ubuntu/DevOps_FullCourse/05_CICD/01_GitHub-Actions/01_express-weatherapp
 
             echo "Pulling latest code..."
             git pull origin main
